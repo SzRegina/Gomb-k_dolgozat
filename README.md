@@ -1,2 +1,2 @@
-# Gomb-k_dolgozat
+# Gombak_dolgozat
 Webprogramozás_számonkérés #1
