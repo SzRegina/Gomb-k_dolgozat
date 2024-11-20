@@ -11,9 +11,13 @@
     font-family: Poppins_Regular;
     src: url(/fonts/Poppins-Regular.ttf);
 }
+body{
+    background-color: #ffff;
+}
 .hero{
     width: 100vw;
     height: 100vh;
+
 }
 
 .top {
@@ -36,7 +40,32 @@
 
 }
 #perfect_trip{
+    margin-top: 30vh;
+    font-family: Poppins_Regular;
+    width: 1088px;
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    background-color:#ffff;
+}
+#perfect_trip h2{
+    color: black;
+    font-weight: 700;
+    font-size: 36px;
+    padding-bottom: 20px;
 
+}
+#perfect_trip p{
+    font-size: 16px;
+    color: black;
+}
+#perfect_trip img{
+    width: 100%;
+    border-radius: 12px;
+}
+.shrooms{
 }
 #forest_night{
 
