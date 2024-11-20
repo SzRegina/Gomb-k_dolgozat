@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Poppins_Black;
+    src: url(/fonts/Poppins-Black.ttf);
+}
+@font-face {
+    font-family: Poppins_Regular;
+    src: url(/fonts/Poppins-Regular.ttf);
+}
+.hero{
+    width: 100vw;
+    height: 100vh;
+}
+
+.top {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/kepek/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.top_text{
+    position: absolute;
+    color: #ffff;
+    font-family: Poppins_Regular;
+    font-size: 4rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 40vh;
+
+}
+#perfect_trip{
+
+}
+#forest_night{
+
+}
