@@ -20,6 +20,8 @@ body{
 
 }
 
+/* Top part */
+
 .top {
     width: 100vw;
     height: 100vh;
@@ -39,6 +41,10 @@ body{
     margin-top: 40vh;
 
 }
+
+/* section1 */
+
+
 #perfect_trip{
     margin-top: 30vh;
     font-family: Poppins_Regular;
@@ -65,8 +71,40 @@ body{
     width: 100%;
     border-radius: 12px;
 }
-.shrooms{
-}
-#forest_night{
 
+
+
+    /* section2 */
+
+
+
+#forest_night{
+    font-family: Poppins_Regular;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    background-color:darkcyan;
+    padding:200px;
+}
+#forest_night h2{
+    color: #ffff;
+    font-weight: 700;
+    font-size: 36px;
+    padding-bottom: 20px;
+
+}
+#forest_night p{
+    font-size: 16px;
+    color: #ffff;
+}
+.forest_night_text{
+    margin-left: 20px;
+    padding: 50px;
+}
+#forest_night img{
+    width: 100%;
+    border-radius: 12px;
 }
