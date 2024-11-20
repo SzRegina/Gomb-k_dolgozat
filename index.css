@@ -86,7 +86,7 @@ body{
     margin-right: auto;
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    background-color:darkcyan;
+    background-color:darkslategrey;
     padding:200px;
 }
 #forest_night h2{
@@ -107,4 +107,13 @@ body{
 #forest_night img{
     width: 100%;
     border-radius: 12px;
+}
+
+
+
+/* Gallery */¨
+
+
+#gallery{
+
 }
