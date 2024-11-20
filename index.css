@@ -111,9 +111,67 @@ body{
 
 
 
-/* Gallery */¨
+/* Gallery */
 
 
-#gallery{
 
+#gallery {
+    display: grid;
+    grid-template-areas:
+        "solo four_piccolo";
+    grid-template-columns: 1fr 1fr;
+    gap: 30px; 
+    padding: 40px;
+    margin-top: 10px;
+    
+}
+#gallery img{
+    border-radius: 12px;
+}
+
+
+#big_solo {
+    grid-area: solo;
+}
+
+#big_solo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+#four_piccolo {
+    grid-area: four_piccolo;
+    display: grid;
+    grid-template-areas:
+        "one two"
+        "three four";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px; 
+}
+
+
+#four_piccolo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+.one_four {
+    grid-area: one;
+}
+
+.two_four {
+    grid-area: two;
+}
+
+.three_four {
+    grid-area: three;
+}
+
+.four_four {
+    grid-area: four;
 }
